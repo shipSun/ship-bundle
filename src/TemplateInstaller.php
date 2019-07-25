@@ -18,7 +18,7 @@ class TemplateInstaller extends LibraryInstaller
 
     public function getInstallPath(PackageInterface $package)
     {
-        return 'src/'.$package->getPrettyName().'/';
+        return 'modules/'.$package->getPrettyName().'/';
     }
     /**
      * {@inheritDoc}
