@@ -1,0 +1,17 @@
+{
+  "name": "ship-sun/bundle",
+  "type": "composer-plugin",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "PackageInstaller\\Composer\\":"src/"
+    }
+  },
+  "extra": {
+    "class": "PackageInstaller\\Composer\\TemplateInstallerPlugin"
+  },
+  "require": {
+    "composer-plugin-api": "*"
+  }
+}
