@@ -12,6 +12,6 @@
     "class": "PackageInstaller\\Composer\\TemplateInstallerPlugin"
   },
   "require": {
-    "composer-plugin-api": "*"
+    "composer-plugin-api": "~1.0"
   }
 }
