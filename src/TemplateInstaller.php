@@ -5,6 +5,7 @@
  * Date: 2018/6/8
  * Time: 15:03
  */
+
 namespace PackageInstaller\Composer;
 
 use Composer\Package\PackageInterface;
@@ -15,11 +16,11 @@ class TemplateInstaller extends LibraryInstaller
     /**
      * {@inheritDoc}
      */
-
     public function getInstallPath(PackageInterface $package)
     {
-        return 'modules/'.$package->getPrettyName().'/';
+        return 'modules/' . $package->getPrettyName() . '/';
     }
+
     /**
      * {@inheritDoc}
      */
