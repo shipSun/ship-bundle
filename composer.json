@@ -13,5 +13,8 @@
   },
   "require": {
     "composer-plugin-api": "~1.0"
+  },
+  "require-dev": {
+    "composer/composer": "^2.0"
   }
 }
